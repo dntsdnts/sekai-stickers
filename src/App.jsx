@@ -73,8 +73,6 @@ function App() {
   let angle = (Math.PI * text.length) / 7;
 
   const draw = (ctx) => {
-    //ctx.canvas.width = 296;
-    //ctx.canvas.height = 256;
     ctx.canvas.width = 256;
     ctx.canvas.height = 256;
 
@@ -199,7 +197,7 @@ function App() {
             value={position.x}
             onChange={(e, v) => setPosition({ ...position, x: v })}
             min={0}
-            max={296}
+            max={256}
             step={1}
             track={false}
             color="secondary"

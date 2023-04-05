@@ -12,7 +12,7 @@
 
 .canvas {
   height: 256px;
-  width: 296px;
+  width: 256px;
   border: 1px solid #ddd;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .horizontal {
-  width: 296px;
+  width: 256px;
   /* margin-left: -30px; */
 
 }
