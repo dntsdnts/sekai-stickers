@@ -73,7 +73,9 @@ function App() {
   let angle = (Math.PI * text.length) / 7;
 
   const draw = (ctx) => {
-    ctx.canvas.width = 296;
+    //ctx.canvas.width = 296;
+    //ctx.canvas.height = 256;
+    ctx.canvas.width = 256;
     ctx.canvas.height = 256;
 
     if (loaded && document.fonts.check("12px YurukaStd")) {
